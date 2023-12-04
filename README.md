@@ -16,11 +16,11 @@ Five fundamental ideas make up the BACCM: Change, Need, Solution, Stakeholder an
 In order to solve the problem of growing customer attrition in the business, a machine learning approach was used in the project. Machine learning is a potent technique that makes it possible to create predictive models by looking at historical data and spotting trends. Building a model with the ability to precisely forecast which clients are most likely to leave in the future was the aim.
 Data Sources and Preparation:
 Data source was the complete data which was considered for the machine learning approach. Pre-processing and data purification are essential processes in getting data ready for analysis. The aforementioned model encountered the following issues and notes:
-•	Handling missing values – It was checked and there were no missing values. 
-•	Converting Categorical to numerical data: The data had many categorical variables present in. After building charts to understand them and after comparing them with the dependent variable they were all converted to numerical by using get dummies.
-•	Dropped the irrelevant variables – in this case the ‘Customer ID’ was irrelevant for the analysis and was dropped from the further analysis.
-•	Feature engineering can improve the performance of the model by transforming and choosing the right features. Scaling, encoding categorical variables, and developing new features based on domain expertise were some of the methods used. Finding the most predictive variables for the model required sifting through the available characteristics in order to obtain useful data.
-•	The most difficult parts were trying to check the findings after converting each classified variable to a numerical form. Get Dummies converted each categorical variable at the end.
+1 )Handling missing values – It was checked and there were no missing values. 
+2) Converting Categorical to numerical data: The data had many categorical variables present in. After building charts to understand them and after comparing them with the dependent variable they were all converted to numerical by using get dummies.
+3) Dropped the irrelevant variables – in this case the ‘Customer ID’ was irrelevant for the analysis and was dropped from the further analysis.
+4) Feature engineering can improve the performance of the model by transforming and choosing the right features. Scaling, encoding categorical variables, and developing new features based on domain expertise were some of the methods used. Finding the most predictive variables for the model required sifting through the available characteristics in order to obtain useful data.
+5) The most difficult parts were trying to check the findings after converting each classified variable to a numerical form. Get Dummies converted each categorical variable at the end.
 
 
 # Model selection, evaluation, and comparison:
